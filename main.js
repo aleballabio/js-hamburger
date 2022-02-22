@@ -1,8 +1,12 @@
-let menudrop = document.querySelector('.faBars');
-let hamburger = document.querySelector('.hamburgerMenu')
+let menudrop = document.querySelector('.fa-bars');
+let hamburger = document.querySelector('.hamburger-menu')
+let cross = document.querySelector('.close')
 
-if (menudrop.style.display = none) {
-    menudrop.addEventListener('click', function () {
-        hamburger.classList.toggle('active');
-    })
-}
+menudrop.addEventListener('click', function () {
+    hamburger.classList.toggle('active');
+})
+
+cross.addEventListener('click', function () {
+    hamburger.classList.toggle('active');
+})
+
